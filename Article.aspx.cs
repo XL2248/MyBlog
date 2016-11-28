@@ -9,7 +9,7 @@ using System.Data.OleDb;
 using System.Configuration;
 
 public partial class Default3 : System.Web.UI.Page
-{
+{//做一个测试工作
     //定义连接对象，类，数据集
     OleDbConnection conn = new OleDbConnection(ConfigurationManager.AppSettings["conn"]);
     Common com = new Common();
