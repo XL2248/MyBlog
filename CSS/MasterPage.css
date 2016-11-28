@@ -1,0 +1,140 @@
+﻿body{
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+}
+.watermark {
+	height:20px;
+	width:150px;
+	padding:2px 0 0 2px;
+	border:1px solid #BEBEBE;
+	background-color:#F0F8FF;
+	color:gray;
+}
+
+.modalBg{
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+#user{
+  padding-top:8px;
+  padding-left:12px;
+  text-align:left;    
+  font-size:22px;
+}
+
+#page{
+    margin:0 auto;
+    width:850px;
+}
+
+#hdDiv{
+    height: 50px;
+    font-size: 26px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+#title{
+    font-family: 宋体;
+    font-size: 13px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titleLeft{
+    float:left;  
+}
+
+#titleDiv a:link{
+	color:#000000;
+	text-decoration : none;
+}
+
+#titleDiv a:hover{
+	color:Red;
+}
+
+#titleDiv a:visited{
+  text-decoration : none;
+}
+
+#titleDiv a:active{
+  text-decoration : none;
+  color:Black;
+ }
+ 
+#titleRight{
+   float:right;
+}
+
+#content{
+   margin:0 auto;
+   width:850px;
+}
+
+ #contentLeft{
+	width:200px;
+	float:left;
+	clear:both;
+	text-align:center;
+}
+
+#city{
+    padding-left: 35px;  
+}
+#weather{
+   padding-left: 10px; 
+}
+
+#msg{
+    text-align:center;
+ }
+ 
+#contentRight{
+    width: 640px;
+    float:right;
+    display:inline;
+}
+
+.bottomDiv{
+    width: 850px;
+    height: 58px;
+    margin-right: auto;
+    margin-left: auto;
+    word-spacing:1.5px;
+    line-height:1.3em;
+    background-color: #CCFFCC;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    clear:both;
+}
+
+#bottomDiv a:link{
+	color:#000000;
+	text-decoration : none;
+}
+
+#bottomDiv a:hover{
+	color:Red;
+}
+
+#bottomDiv a:visited{
+  text-decoration : none;
+}
+
+#bottomDiv a:active{
+  text-decoration : none;
+  color:Black;
+ }
+
+/*管理模板中的*/
+#dv{
+  width:850px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:White;
+}

@@ -1,0 +1,115 @@
+﻿/*默认页的标签*/
+.search{
+    text-align: right;
+}
+/*反馈、注册、登录共有的样式*/
+.tb{
+	 width: 640px;
+	 margin-left:auto;
+	 margin-right:auto;
+}
+.td{
+    height: 37px;
+    background-image: url('../images/模块.jpg');
+    padding-left: 110px;
+    background-repeat: no-repeat;
+}
+/*反馈页特有的样式*/
+.tb_fb{
+    border:1px solid #0094ff;
+    border-collapse:collapse;    
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tb_fb td{
+    border:1px solid #0094ff; 
+}
+/*忘记密码也特有的样式*/
+/*登录页特有的样式*/
+.tb_fg{
+/*    border:1px solid #0094ff; */
+    border-collapse:collapse;
+    width:450px;
+    height:200px;
+}
+.tb_lg td{
+    border:1px solid #0094ff;         
+}
+/*
+td{
+    border:1px solid #0094ff; 
+    border-collapse:collapse; 
+}*/
+.tb_fg td{
+    border:1px solid #0094ff;
+}
+/*注册页特有的样式*/
+.tb_rg{
+    border:1px solid #0094ff; 
+    border-collapse:collapse;
+	width: 500px;
+	height: 400px;
+}
+.tb_rg td,th{
+    border:1px solid #0094ff;
+} 
+.tb_am{
+    border:1px solid #0094ff; 
+    width: 400px;
+    height: 300px;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+    color:Red;
+}
+a:visited{
+    text-decoration:none;
+    color:Purple;
+}
+a:active{
+    text-decoration:none;
+    color:Black;
+}
+a:link{
+    text-decoration:none;
+    color:Blue;
+}      
+ /*信息修改页特有的样式*/
+#tb_mr{
+    border:1px solid #0094ff; 
+    width: 450px;
+    height: 250px;
+}
+/*帮助中心页面*/
+#tb_hc{
+    width:630px;
+    height:550px;
+}
+#artTitle{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    word-spacing: 1.5em;
+}
+#artContent{
+    font-size: 18px;
+    text-align: center;
+}
+#artTime{
+    text-align: right;
+    margin-right: 20px;
+}
+#control{
+  text-align:center;    
+}
+
+ /*后台管理 文章管理页面的样式*/
+ /*后台管理 添加文章页面的样式*/
+ .tb_lg {
+    width: 460px;
+    height: 250px;
+}

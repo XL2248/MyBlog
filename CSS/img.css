@@ -1,0 +1,40 @@
+﻿
+img{
+    border:0px;
+    }
+#imgsBox{
+	overflow:hidden;
+	width:550px;
+	height:350px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#pics a{
+	display:block;
+	width:350px;
+	height:245px;
+	}
+#clkBtn{
+	background-color:#888888;
+    width:350px;
+    height:12px;
+    position:relative;
+    top:-1px;
+    _top:-5px;
+	}
+	#clkBtn div
+	{
+	    float:right;
+	    }
+#clkBtn a{
+    background-color:#666;
+    border-left:#ccc 1px solid;
+    line-height:12px;height:12px;
+    font-size:10px;float:left;
+    padding:0 7px;
+    text-decoration:none;
+    color:#fff;
+ }
+#clkBtn a.active,#clkBtn a:hover{
+    background-color:#d34600;
+}

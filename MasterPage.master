@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width: 965px; height: 700px; text-align: right; background-image: url('/Image/伞.jpg');">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label 
+            ID="labUser" runat="server"></asp:Label>
+        <asp:Button ID="btnExitUser" runat="server" Height="20px" 
+            onclick="btnExitUser_Click" Text="退出" />
+&nbsp; <asp:LinkButton ID="LoginLinkButton" runat="server" 
+            PostBackUrl="~/login.aspx" >登陆</asp:LinkButton>
+        &nbsp;<asp:LinkButton ID="RegisterLinkButton" runat="server" 
+            PostBackUrl="~/register.aspx">注册</asp:LinkButton>
+        &nbsp;<asp:Image ID="Image1" runat="server" BorderStyle="None" Height="160px" 
+            ImageUrl="~/Image/荷花.jpg" style="text-align: center" Width="965px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+    <div style="text-align: left">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                     <p>
+                    <br />
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p style="height: 0px">
+                </p>
+        </asp:ContentPlaceHolder>
+                    <br />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    </form>
+</body>
+</html>
